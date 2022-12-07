@@ -7,8 +7,8 @@ public class Main {
         if (repamount > 1000) {
             bonus = (repamount / 100);
             int finamount = (amount + repamount + bonus);
-            System.out.println("Balance="+finamount);
-            System.out.println("Bonus="+bonus);
+            System.out.println("Balance=" + finamount);
+            System.out.println("Bonus=" + bonus);
         }
 
     }
